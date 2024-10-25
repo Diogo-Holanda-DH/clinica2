@@ -57,11 +57,12 @@ try {
             <p> Nome:$nome </p>
             <p> Data nascimento: $data_nasc </p>
             <p> Contato: $contato </p>
-            <a href='pagina_editar.php?cod=$cpf'>
+            
+            <a href='editar.php?cod=$cpf'>
                 <button>✏️Editar</button>
             </a>
             
-            <a href='confirmar_deletar.php?cod=$cpf'>
+            <a href='deletar.php?cod=$cpf'>
                 <button>🗑️Deletar</button>
             </a>
         </div>
